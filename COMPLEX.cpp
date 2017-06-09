@@ -1,6 +1,6 @@
-//////VEC.cpp		 
+//////COMPLEX.cpp		 
 //////Author:	YUNG-SHAN SU 
-//////Date: 3/19 
+//////Date: 6/7 
 
 
 

@@ -1,7 +1,7 @@
 
-//////HW12.cpp		 
+//////proj.cpp		 
 //////Author:	YUNG-SHAN SU 
-//////Date: 5/22
+//////Date: 6/8
 
 
 #include<stdio.h>
@@ -151,7 +151,6 @@ void Linquadric(int degree, VEC & answer,VEC &polynomial, int maxiter, double er
 
 		}
 		//printf("Iteration Number:\t%d\n",iter_num);
-		//p.print();q.print();printf("\n");
 		VEC ansreg=solve_2_polynominial(p.real(),q.real());
 		answer[degree-n]=ansreg[0];
 		answer[degree-n+1]=ansreg[1];
@@ -183,8 +182,6 @@ void Bairstow(int degree, VEC & answer,VEC &polynomial, int maxiter, double erro
 		int iter_num=0;
 		p=zero;
 		q=zero;
-		//p.print();
-		//q.print();
 		VEC b(n+1);
 		VEC c(n+1);
 		VEC d(n+1);
@@ -199,7 +196,6 @@ void Bairstow(int degree, VEC & answer,VEC &polynomial, int maxiter, double erro
 			}
 			R=poly[n-1]-p*b[n]-q*b[n-1];
 			S=poly[n]-q*b[n];
-			//R.print();S.print();printf("\n");
 			c[2]=zero;
 			c[3]=-1.0*b[2]-p*c[2];
 			for(int i=4;i<n+1;i++){
