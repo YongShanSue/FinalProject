@@ -1,0 +1,18 @@
+Degree: 7
+Polynomial Cofficient:	1 +0i	1 +0i	1 +0i	1 +0i	1 +0i	1 +0i	1 +0i	1 +0i	
+
+Newton_Honner
+IterationSum	184
+Answer:	-2.68319e-17 +-1i	-1 +-6.84405e-15i	-2.03401e-14 +1i	0.707107 +0.707107i	-0.707107 +-0.707107i	0.707107 +-0.707107i	-0.707107 +0.707107i	
+Error:	3.14018e-16 +0i	3.82025e-14 +0i	8.45825e-13 +0i	7.66599e-13 +0i	3.68782e-13 +0i	2.87954e-13 +0i	7.84875e-13 +0i	
+
+Linquadric
+IterationSum	2
+Answer:	nan +-nani	nan +nani	nan +-nani	nan +nani	nan +-nani	nan +nani	-nan +-nani	
+Error:	-nan +0i	nan +0i	-nan +0i	nan +0i	-nan +0i	nan +0i	-nan +0i	
+
+Bairstow
+Discriminant: 0.000000
+IterationSum	4
+Answer:	-0 +1i	-0 +-1i	nan +-nani	nan +nani	0 +0i	-0 +0i	-nan +-nani	
+Error:	0 +0i	0 +0i	-nan +0i	nan +0i	1 +0i	1 +0i	-nan +0i	
